@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AIM//RUSH</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-grid"></div>
+
+    <main class="game-container">
+
+        <!-- HEADER -->
+        <header class="top-bar">
+
+            <div class="brand">
+                <div class="brand-icon">✦</div>
+
+                <div>
+                    <h1>AIM<span>//</span>RUSH</h1>
+                    <p>REFLEX TRAINING SYSTEM</p>
+                </div>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                SYSTEM ONLINE
+            </div>
+
+        </header>
+
+
+        <!-- GAME HUD -->
+        <section class="hud">
+
+            <div class="stat-card">
+                <span class="stat-label">SCORE</span>
+                <strong id="score">0</strong>
+            </div>
+
+            <div class="stat-card timer-card">
+                <span class="stat-label">TIME</span>
+                <strong><span id="time">30</span><small>S</small></strong>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-label">HIGH SCORE</span>
+                <strong id="highScore">0</strong>
+            </div>
+
+        </section>
+
+
+        <!-- GAME -->
+        <section class="arena-wrapper">
+
+            <div class="arena-top">
+
+                <div>
+                    <span class="live-dot"></span>
+                    LIVE SESSION
+                </div>
+
+                <div class="difficulty">
+                    MODE: <b>CLASSIC</b>
+                </div>
+
+            </div>
+
+
+            <div id="gameArea">
+
+                <!-- Center Start Overlay -->
+                <div class="start-overlay">
+
+                    <div class="crosshair-big">
+                        +
+                    </div>
+
+                    <h2>READY TO AIM?</h2>
+
+                    <p>
+                        Hit the targets as fast as possible
+                    </p>
+
+                    <button id="startBtn">
+                        <span>▶</span>
+                        START GAME
+                    </button>
+
+                </div>
+
+
+                <!-- Target -->
+                <div id="target"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MESSAGE -->
+        <div class="message-area">
+            <span class="message-line"></span>
+
+            <p id="message">
+                Initialize the training session to begin
+            </p>
+
+            <span class="message-line"></span>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <span>PRECISION</span>
+            <span>•</span>
+            <span>REFLEX</span>
+            <span>•</span>
+            <span>REACTION</span>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
