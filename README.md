@@ -6,7 +6,7 @@ Test your reaction speed, hit as many targets as possible within 30 seconds, and
 
 ## 🚀 Live Demo
 
-Coming soon — GitHub Pages deployment.
+https://hardahapulkit19-creator.github.io/aim-rush/
 
 ## 🎮 Features
 
